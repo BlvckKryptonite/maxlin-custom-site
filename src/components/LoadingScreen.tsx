@@ -33,11 +33,14 @@ export const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
   return (
     <div className="fixed inset-0 bg-background z-50 flex items-center justify-center">
       <div className="text-center">
-        <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-24 w-auto mx-auto mb-6 loading-bounce" />
-        <div className="w-32 h-1 bg-muted rounded-full mx-auto overflow-hidden">
-          <div className="h-full bg-gradient-to-r from-primary to-primary-light rounded-full loading-pulse"></div>
+        <div className="relative">
+          <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-32 w-auto mx-auto mb-8 loading-bounce filter drop-shadow-lg" />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-primary-light/20 rounded-full blur-xl"></div>
         </div>
-        <p className="mt-4 text-muted-foreground text-sm">Loading Excellence...</p>
+        <div className="w-40 h-1.5 bg-muted rounded-full mx-auto overflow-hidden shadow-sm">
+          <div className="h-full bg-gradient-to-r from-primary to-primary-light rounded-full loading-pulse shadow-lg"></div>
+        </div>
+        <p className="mt-6 text-muted-foreground text-base font-medium tracking-wide">Loading Excellence...</p>
       </div>
     </div>
   );

@@ -7,22 +7,22 @@ export const ProductsSection = () => {
     {
       name: "Standard Mop Head",
       description: "High-quality cotton mop head perfect for commercial and domestic cleaning.",
-      image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "/lovable-uploads/6a508820-f1ba-4d9b-b211-aa2399b3bfc3.png"
     },
     {
       name: "Platform Broom",
       description: "Durable platform broom designed for efficient floor cleaning in large areas.",
-      image: "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "/lovable-uploads/996800e4-bb87-4907-b0a7-69b23de0cdbd.png"
     },
     {
       name: "Microfibre Fan Mop Head",
       description: "Advanced microfibre technology for superior cleaning performance.",
-      image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "/lovable-uploads/aa04f537-558a-4d5a-aafe-5badc4add145.png"
     },
     {
       name: "Professional Cleaning Kit",
       description: "Complete cleaning solution with all essential tools and supplies.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "/lovable-uploads/87fb8b66-2e93-44e1-bba2-4c847e9b8e94.png"
     }
   ];
 

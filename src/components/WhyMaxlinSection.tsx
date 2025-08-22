@@ -66,25 +66,25 @@ export const WhyMaxlinSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                  src="/lovable-uploads/79fc9308-62bf-4caf-9b24-d04a8b215321.png"
                   alt="Professional cleaning service"
                   className="w-full h-48 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Office cleaning"
+                  src="/lovable-uploads/aa04f537-558a-4d5a-aafe-5badc4add145.png"
+                  alt="Office cleaning equipment"
                   className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
               <div className="space-y-4 pt-8">
                 <img 
-                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Cleaning team"
+                  src="/lovable-uploads/996800e4-bb87-4907-b0a7-69b23de0cdbd.png"
+                  alt="Cleaning products specialist"
                   className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Cleaning equipment"
+                  src="/lovable-uploads/87fb8b66-2e93-44e1-bba2-4c847e9b8e94.png"
+                  alt="Professional cleaning"
                   className="w-full h-48 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>

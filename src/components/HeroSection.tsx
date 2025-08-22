@@ -9,12 +9,12 @@ export const HeroSection = () => {
     {
       title: "Your Trusted Partner for Clean, Safe, and Healthy Environments",
       subtitle: "Professional cleaning and hygiene solutions across Zambia with 18+ years of excellence",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+      image: "/lovable-uploads/243f1012-613a-40f4-9717-5c7ff9030150.png"
     },
     {
       title: "Experience Excellence in Every Service",
       subtitle: "From commercial cleaning to pest control - we deliver comprehensive solutions",
-      image: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+      image: "/lovable-uploads/79fc9308-62bf-4caf-9b24-d04a8b215321.png"
     }
   ];
 
