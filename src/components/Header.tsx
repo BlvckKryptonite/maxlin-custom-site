@@ -70,11 +70,8 @@ export const Header = () => {
               <img src={maxlinEagleLogo} alt="Maxlin Enterprise Eagle Logo" className="h-14 w-auto" />
               <div className="block">
                 <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-[#0101ff] via-primary to-[#0101ff] bg-clip-text text-transparent">
-                  Maxlin Enterprise
+                  Maxlin Enterprise Limited
                 </h1>
-                <p className="text-sm lg:text-base font-medium bg-gradient-to-r from-[#0101ff] via-primary to-[#0101ff] bg-clip-text text-transparent opacity-80">
-                  Limited
-                </p>
               </div>
             </div>
 

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Maxlin Enterprise Design System - Professional cleaning & hygiene company */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -17,11 +17,11 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Primary - Maxlin Professional Blue (Darker) */
-    --primary: 215 100% 45%;
+    /* Primary - Maxlin Blue (#0101ff) */
+    --primary: 240 100% 50%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 215 100% 55%;
-    --primary-dark: 215 100% 35%;
+    --primary-light: 240 100% 60%;
+    --primary-dark: 240 100% 40%;
 
     /* Secondary - Clean Gray-Blue */
     --secondary: 215 15% 95%;
@@ -90,10 +90,10 @@
     --popover: 215 20% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 215 100% 50%;
+    --primary: 240 100% 50%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 215 100% 60%;
-    --primary-dark: 215 100% 40%;
+    --primary-light: 240 100% 60%;
+    --primary-dark: 240 100% 40%;
 
     --secondary: 215 15% 15%;
     --secondary-foreground: 0 0% 95%;
@@ -122,11 +122,11 @@
   }
 
   body {
-    @apply bg-background text-foreground font-inter antialiased;
+    @apply bg-background text-foreground font-poppins antialiased;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-playfair;
+    @apply font-poppins;
   }
 }
 
