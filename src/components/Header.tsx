@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Menu, X, Phone, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import maxlinLogo from '@/assets/maxlin-logo.png';
+import maxlinEagleLogo from '/lovable-uploads/2df46450-9fad-4f9b-8b1e-ece0c3c70869.png';
 
 export const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -64,18 +64,22 @@ export const Header = () => {
         }`}
       >
         <div className="container mx-auto px-4">
-          <div className="flex h-20 items-center justify-between">
+          <div className="flex h-20 items-center justify-between lg:justify-start">
             {/* Logo */}
-            <div className="flex items-center space-x-3">
-              <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-12 w-auto" />
-              <div className="hidden sm:block">
-                <h1 className="text-xl font-bold text-primary">Maxlin Enterprise</h1>
-                <p className="text-xs text-muted-foreground">Limited</p>
+            <div className="flex items-center justify-center lg:justify-start space-x-3 flex-1 lg:flex-none">
+              <img src={maxlinEagleLogo} alt="Maxlin Enterprise Eagle Logo" className="h-14 w-auto" />
+              <div className="block">
+                <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-[#0101ff] via-primary to-[#0101ff] bg-clip-text text-transparent">
+                  Maxlin Enterprise
+                </h1>
+                <p className="text-sm lg:text-base font-medium bg-gradient-to-r from-[#0101ff] via-primary to-[#0101ff] bg-clip-text text-transparent opacity-80">
+                  Limited
+                </p>
               </div>
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center space-x-8">
+            <nav className="hidden lg:flex items-center space-x-8 ml-auto">
               {navItems.map((item) => (
                 <button
                   key={item.label}
