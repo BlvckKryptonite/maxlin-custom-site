@@ -21,7 +21,7 @@ export const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
     return (
       <div className="fixed inset-0 bg-background z-50 flex items-center justify-center transition-opacity duration-500 opacity-0 pointer-events-none">
         <div className="text-center">
-          <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-24 w-auto mx-auto mb-6 loading-bounce" />
+          <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-32 w-auto mx-auto mb-6 loading-bounce" />
           <div className="w-32 h-1 bg-muted rounded-full mx-auto overflow-hidden">
             <div className="h-full bg-gradient-to-r from-primary to-primary-light rounded-full loading-pulse"></div>
           </div>
@@ -33,7 +33,7 @@ export const LoadingScreen = ({ onComplete }: LoadingScreenProps) => {
   return (
     <div className="fixed inset-0 bg-background z-50 flex items-center justify-center">
       <div className="text-center">
-        <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-24 w-auto mx-auto mb-6 loading-bounce" />
+        <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-32 w-auto mx-auto mb-6 loading-bounce" />
         <div className="w-32 h-1 bg-muted rounded-full mx-auto overflow-hidden">
           <div className="h-full bg-gradient-to-r from-primary to-primary-light rounded-full loading-pulse"></div>
         </div>

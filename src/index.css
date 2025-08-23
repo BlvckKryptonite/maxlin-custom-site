@@ -17,11 +17,11 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    /* Primary - Maxlin Professional Blue */
-    --primary: 215 100% 50%;
+    /* Primary - Maxlin Professional Blue (Darker) */
+    --primary: 215 100% 45%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 215 100% 60%;
-    --primary-dark: 215 100% 40%;
+    --primary-light: 215 100% 55%;
+    --primary-dark: 215 100% 35%;
 
     /* Secondary - Clean Gray-Blue */
     --secondary: 215 15% 95%;
