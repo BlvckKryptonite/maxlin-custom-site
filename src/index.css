@@ -7,43 +7,43 @@
 
 @layer base {
   :root {
-    /* Maxlin Brand Colors - Professional Green Palette */
+    /* Maxlin Brand Colors - Professional Blue Palette */
     --background: 0 0% 100%;
-    --foreground: 147 20% 15%;
+    --foreground: 215 25% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 147 20% 15%;
+    --card-foreground: 215 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 147 20% 15%;
+    --popover-foreground: 215 25% 15%;
 
-    /* Primary - Maxlin Professional Green */
-    --primary: 147 47% 25%;
+    /* Primary - Maxlin Professional Blue */
+    --primary: 215 100% 50%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 147 40% 35%;
-    --primary-dark: 147 60% 18%;
+    --primary-light: 215 100% 60%;
+    --primary-dark: 215 100% 40%;
 
-    /* Secondary - Clean Gray-Green */
-    --secondary: 147 15% 95%;
-    --secondary-foreground: 147 25% 25%;
+    /* Secondary - Clean Gray-Blue */
+    --secondary: 215 15% 95%;
+    --secondary-foreground: 215 25% 25%;
 
-    /* Success Green */
-    --success: 142 76% 36%;
+    /* Success Blue */
+    --success: 215 100% 50%;
     --success-foreground: 0 0% 98%;
 
     /* Neutral Grays */
-    --muted: 147 8% 96%;
-    --muted-foreground: 147 8% 45%;
+    --muted: 215 8% 96%;
+    --muted-foreground: 215 8% 45%;
 
-    --accent: 147 15% 92%;
-    --accent-foreground: 147 25% 25%;
+    --accent: 215 15% 92%;
+    --accent-foreground: 215 25% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 147 8% 88%;
-    --input: 147 8% 94%;
-    --ring: 147 47% 25%;
+    --border: 215 8% 88%;
+    --input: 215 8% 94%;
+    --ring: 215 100% 50%;
 
     --radius: 0.75rem;
 
@@ -80,39 +80,39 @@
   }
 
   .dark {
-    /* Dark mode with green accent */
-    --background: 147 20% 8%;
+    /* Dark mode with blue accent */
+    --background: 215 20% 8%;
     --foreground: 0 0% 95%;
 
-    --card: 147 20% 10%;
+    --card: 215 20% 10%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 147 20% 10%;
+    --popover: 215 20% 10%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 142 76% 36%;
+    --primary: 215 100% 50%;
     --primary-foreground: 0 0% 98%;
-    --primary-light: 142 70% 45%;
-    --primary-dark: 142 85% 28%;
+    --primary-light: 215 100% 60%;
+    --primary-dark: 215 100% 40%;
 
-    --secondary: 147 15% 15%;
+    --secondary: 215 15% 15%;
     --secondary-foreground: 0 0% 95%;
 
-    --success: 142 76% 36%;
+    --success: 215 100% 50%;
     --success-foreground: 0 0% 98%;
 
-    --muted: 147 10% 15%;
-    --muted-foreground: 147 5% 65%;
+    --muted: 215 10% 15%;
+    --muted-foreground: 215 5% 65%;
 
-    --accent: 147 15% 18%;
+    --accent: 215 15% 18%;
     --accent-foreground: 0 0% 95%;
 
     --destructive: 0 62.8% 50%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 147 10% 18%;
-    --input: 147 10% 18%;
-    --ring: 142 76% 36%;
+    --border: 215 10% 18%;
+    --input: 215 10% 18%;
+    --ring: 215 100% 50%;
   }
 }
 
