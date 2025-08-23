@@ -83,8 +83,8 @@ export const JourneySection = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-primary-light/20 rounded-2xl blur-lg"></div>
               <img 
-                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Professional cleaning team"
+                src="/lovable-uploads/ffaa6c66-6a7d-4b9d-8293-419ace041ac6.png"
+                alt="Maxlin Enterprise Limited team"
                 className="relative w-full h-[500px] object-cover rounded-2xl shadow-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
