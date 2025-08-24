@@ -5,22 +5,22 @@ import { Card, CardContent } from '@/components/ui/card';
 export const ProductsSection = () => {
   const featuredProducts = [
     {
-      name: "Heavy-Duty Floor Brush",
+      name: "Truck Wash Broom",
       description: "Professional red bristle brush perfect for heavy-duty cleaning and scrubbing.",
       image: "/lovable-uploads/04c8dac2-a095-4bc9-8eb4-622d9d061849.png"
     },
     {
-      name: "Professional Mop System",
+      name: "Dustmop Sweeper Complete",
       description: "Complete mop system with interchangeable heads for versatile cleaning solutions.",
       image: "/lovable-uploads/b73acd5b-1bc4-41a2-aca0-13c9214a2357.png"
     },
     {
-      name: "Wooden Handle Broom",
+      name: "Platform Broom",
       description: "Traditional wooden-handled broom with durable bristles for effective sweeping.",
       image: "/lovable-uploads/a3bd66ea-4277-4ea7-927d-92a83082d261.png"
     },
     {
-      name: "Commercial Mop Head",
+      name: "Microfibre Fan Mop Head",
       description: "Industrial-grade microfibre mop head designed for commercial cleaning applications.",
       image: "/lovable-uploads/98825cda-0494-4b9d-87a2-c717a6447ceb.png"
     }
