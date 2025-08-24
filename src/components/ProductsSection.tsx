@@ -5,24 +5,24 @@ import { Card, CardContent } from '@/components/ui/card';
 export const ProductsSection = () => {
   const featuredProducts = [
     {
-      name: "Standard Mop Head",
-      description: "High-quality cotton mop head perfect for commercial and domestic cleaning.",
-      image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Heavy-Duty Floor Brush",
+      description: "Professional red bristle brush perfect for heavy-duty cleaning and scrubbing.",
+      image: "/lovable-uploads/04c8dac2-a095-4bc9-8eb4-622d9d061849.png"
     },
     {
-      name: "Platform Broom",
-      description: "Durable platform broom designed for efficient floor cleaning in large areas.",
-      image: "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Professional Mop System",
+      description: "Complete mop system with interchangeable heads for versatile cleaning solutions.",
+      image: "/lovable-uploads/b73acd5b-1bc4-41a2-aca0-13c9214a2357.png"
     },
     {
-      name: "Microfibre Fan Mop Head",
-      description: "Advanced microfibre technology for superior cleaning performance.",
-      image: "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Wooden Handle Broom",
+      description: "Traditional wooden-handled broom with durable bristles for effective sweeping.",
+      image: "/lovable-uploads/a3bd66ea-4277-4ea7-927d-92a83082d261.png"
     },
     {
-      name: "Professional Cleaning Kit",
-      description: "Complete cleaning solution with all essential tools and supplies.",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Commercial Mop Head",
+      description: "Industrial-grade microfibre mop head designed for commercial cleaning applications.",
+      image: "/lovable-uploads/98825cda-0494-4b9d-87a2-c717a6447ceb.png"
     }
   ];
 
