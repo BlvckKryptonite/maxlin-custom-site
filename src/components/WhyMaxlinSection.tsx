@@ -66,25 +66,25 @@ export const WhyMaxlinSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img 
-                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Professional cleaning service"
+                  src="/lovable-uploads/7b63e188-3acc-4af3-9e4d-48824983a2ea.png"
+                  alt="Maxlin professional with cleaning supplies"
                   className="w-full h-48 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Office cleaning"
+                  src="/lovable-uploads/1a73dfb1-6c1d-47fd-81f4-2e25ac5b8f70.png"
+                  alt="Professional office cleaning service"
                   className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
               <div className="space-y-4 pt-8">
                 <img 
-                  src="https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Cleaning team"
+                  src="/lovable-uploads/c578dd06-5f81-4b11-9bfc-3b243c9e70fd.png"
+                  alt="Professional cleaning equipment and cart"
                   className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img 
-                  src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Cleaning equipment"
+                  src="/lovable-uploads/e6bce558-d1ed-4796-a2a0-e26528a1ee7a.png"
+                  alt="Maxlin Enterprise team in uniform"
                   className="w-full h-48 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
