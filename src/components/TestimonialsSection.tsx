@@ -57,7 +57,7 @@ export const TestimonialsSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: `url('/lovable-uploads/90e85a67-b330-4a13-9dd8-d3b6fa55ed13.png')`
+          backgroundImage: `url('/lovable-uploads/55dd1488-eb11-4137-97b1-79eff7205f6b.png')`
         }}
       >
         <div className="absolute inset-0 bg-black/80"></div>
@@ -80,7 +80,7 @@ export const TestimonialsSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative">
             {/* Testimonial Card */}
-            <div className="testimonial-card mx-auto max-w-3xl animate-fade-in-up">
+            <div className="testimonial-card mx-auto max-w-3xl animate-fade-in-up bg-black/60 backdrop-blur-sm rounded-lg p-8">
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 bg-primary-foreground/10 rounded-full flex items-center justify-center">
                   <Quote className="h-8 w-8 text-primary-foreground" />
