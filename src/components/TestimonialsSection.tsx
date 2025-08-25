@@ -57,10 +57,10 @@ export const TestimonialsSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')`
+          backgroundImage: `url('/lovable-uploads/90e85a67-b330-4a13-9dd8-d3b6fa55ed13.png')`
         }}
       >
-        <div className="absolute inset-0 bg-primary/90"></div>
+        <div className="absolute inset-0 bg-black/80"></div>
       </div>
 
       <div className="relative z-10 container mx-auto px-4">

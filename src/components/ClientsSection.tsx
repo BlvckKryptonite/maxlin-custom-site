@@ -29,7 +29,7 @@ export const ClientsSection = () => {
 
     const scroll = () => {
       if (!isPaused) {
-        scrollLeft += 1;
+        scrollLeft += 0.3;
         if (scrollLeft >= scrollWidth / 2) {
           scrollLeft = 0;
         }
@@ -79,7 +79,7 @@ export const ClientsSection = () => {
                 <img 
                   src={client.logo} 
                   alt={client.name}
-                  className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 opacity-60 group-hover:opacity-100"
+                  className="max-w-full max-h-full object-contain transition-all duration-300 opacity-80 group-hover:opacity-100"
                 />
               </div>
             ))}
