@@ -4,18 +4,16 @@ export const ClientsSection = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
 
-  // Sample client logos - in a real implementation, these would be actual client logos
+  // Our trusted clients with real logos
   const clients = [
-    { name: "Ministry of Health", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=MOH" },
-    { name: "Zambia Revenue Authority", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=ZRA" },
-    { name: "Bank of Zambia", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=BOZ" },
-    { name: "Zamtel", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=ZAMTEL" },
-    { name: "ZESCO Limited", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=ZESCO" },
-    { name: "Shoprite Holdings", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=SHOPRITE" },
-    { name: "Standard Bank", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=STANDARD" },
-    { name: "First National Bank", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=FNB" },
-    { name: "University of Zambia", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=UNZA" },
-    { name: "Lusaka City Council", logo: "https://via.placeholder.com/180x80/059669/ffffff?text=LCC" }
+    { name: "Zambia Daily Mail", logo: "/lovable-uploads/2b219e29-df11-4977-8428-e31ca186b69b.png" },
+    { name: "Copperbelt University", logo: "/lovable-uploads/a8b95592-0040-4887-9990-74166b780e0d.png" },
+    { name: "ABSA Bank", logo: "/lovable-uploads/b124f865-32a9-4b24-bfc7-6bb8a0c86605.png" },
+    { name: "Hollard Insurance", logo: "/lovable-uploads/05a46695-74e0-484b-ad6a-f2f91d0d7b2e.png" },
+    { name: "UNHCR", logo: "/lovable-uploads/dbd96426-418b-446a-8086-db80038b221a.png" },
+    { name: "University of Zambia", logo: "/lovable-uploads/113849c1-a7e4-4bb8-8c30-2e87d8570121.png" },
+    { name: "USAID", logo: "/lovable-uploads/623e3d54-0d04-4d35-a37e-3e02239c813d.png" },
+    { name: "Zamtel", logo: "/lovable-uploads/74b312f7-b5eb-49d8-abc7-eab67fd87c47.png" }
   ];
 
   // Duplicate clients for seamless scroll
