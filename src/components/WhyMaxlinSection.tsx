@@ -68,11 +68,11 @@ export const WhyMaxlinSection = () => {
                 <img 
                   src="/lovable-uploads/7b63e188-3acc-4af3-9e4d-48824983a2ea.png"
                   alt="Maxlin professional with cleaning supplies"
-                  className="w-full h-56 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img 
-                  src="/lovable-uploads/1a73dfb1-6c1d-47fd-81f4-2e25ac5b8f70.png"
-                  alt="Professional office cleaning service"
+                  src="/lovable-uploads/c6b67662-af15-413a-957f-9a824f427baa.png"
+                  alt="Maxlin professional floor cleaning service"
                   className="w-full h-72 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
@@ -85,7 +85,7 @@ export const WhyMaxlinSection = () => {
                 <img 
                   src="/lovable-uploads/e6bce558-d1ed-4796-a2a0-e26528a1ee7a.png"
                   alt="Maxlin Enterprise team in uniform"
-                  className="w-full h-56 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
             </div>
