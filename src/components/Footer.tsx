@@ -1,5 +1,5 @@
 import { MapPin, Phone, Mail, Clock, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
-import maxlinLogo from '@/assets/maxlin-logo.png';
+import maxlinEagleLogo from '/lovable-uploads/2df46450-9fad-4f9b-8b1e-ece0c3c70869.png';
 
 export const Footer = () => {
   const scrollToSection = (href: string) => {
@@ -42,7 +42,7 @@ export const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-3 mb-6">
-              <img src={maxlinLogo} alt="Maxlin Enterprise" className="h-12 w-auto" />
+              <img src={maxlinEagleLogo} alt="Maxlin Enterprise" className="h-12 w-auto" />
               <div>
                 <h3 className="text-xl font-bold">Maxlin Enterprise</h3>
                 <p className="text-sm text-primary-foreground/80">Limited</p>
@@ -89,9 +89,12 @@ export const Footer = () => {
             <ul className="space-y-3">
               {services.map((service, index) => (
                 <li key={index}>
-                  <span className="text-primary-foreground/80 hover:text-primary-foreground transition-colors cursor-pointer">
+                  <button
+                    onClick={() => scrollToSection('#services')}
+                    className="text-primary-foreground/80 hover:text-primary transition-colors text-left"
+                  >
                     {service}
-                  </span>
+                  </button>
                 </li>
               ))}
             </ul>

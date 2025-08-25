@@ -14,7 +14,7 @@ export const HeroSection = () => {
     {
       title: "Experience Excellence in Every Service",
       subtitle: "From commercial cleaning to pest control - we deliver comprehensive solutions",
-      image: "/lovable-uploads/0463b5e8-729a-4892-93bd-ae5182e829f0.png"
+      image: "/lovable-uploads/a160f49c-a723-4ad6-b678-f75060d48e96.png"
     }
   ];
 
@@ -46,7 +46,8 @@ export const HeroSection = () => {
           <img 
             src={slide.image} 
             alt="Professional cleaning service"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-center"
+            style={{ objectPosition: index === 1 ? 'center 20%' : 'center' }}
           />
         </div>
       ))}

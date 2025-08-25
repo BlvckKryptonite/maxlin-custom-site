@@ -5,28 +5,31 @@ import { Card, CardContent } from '@/components/ui/card';
 export const NewsSection = () => {
   const blogPosts = [
     {
-      title: "The Importance of Professional Cleaning in Healthcare Facilities",
-      excerpt: "Learn why proper hygiene and cleaning protocols are critical in healthcare environments and how our specialized services ensure patient safety.",
+      title: "The Importance of Regular Maintenance for a Healthy Home",
+      excerpt: "Discover essential tips and professional insights on how regular home maintenance and cleaning routines create healthier living environments for your family.",
       date: "2024-01-15",
       author: "Maxlin Team",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Healthcare"
+      image: "/lovable-uploads/home-maintenance-image.png",
+      category: "Home Care",
+      link: "https://maxlinenterprise.com/the-importance-of-regular-maintenance-for-a-healthy-home/"
     },
     {
-      title: "Sustainable Cleaning: Our Commitment to Environmental Responsibility",
-      excerpt: "Discover how Maxlin Enterprise Limited is leading the way in eco-friendly cleaning solutions that protect both your space and the environment.",
+      title: "Unlocking the Power of Eco-Friendly Cleaning Products",
+      excerpt: "Learn how sustainable cleaning solutions protect both your family and the environment while delivering exceptional cleaning results that you can trust.",
       date: "2024-01-10",
       author: "Maxlin Team",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Sustainability"
+      image: "/lovable-uploads/eco-friendly-cleaning.png",
+      category: "Sustainability",
+      link: "https://maxlinenterprise.com/unlocking-the-power-of-eco-friendly-cleaning-products/"
     },
     {
-      title: "Post-Construction Cleaning: Getting Your Space Move-In Ready",
-      excerpt: "Essential tips and professional insights on post-construction cleaning to ensure your new space is safe, clean, and ready for occupancy.",
+      title: "Use Soap and Water to Clean Your Kitchen Shelves Too",
+      excerpt: "Simple yet effective techniques for maintaining pristine kitchen hygiene. Discover why soap and water remains one of the most powerful cleaning combinations.",
       date: "2024-01-05",
       author: "Maxlin Team",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      category: "Construction"
+      image: "/lovable-uploads/kitchen-cleaning.png",
+      category: "Kitchen Care",
+      link: "https://maxlinenterprise.com/use-soap-and-water-to-clean-your-kitchen-shelves-too/"
     }
   ];
 
@@ -91,14 +94,15 @@ export const NewsSection = () => {
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed line-clamp-3">
                   {post.excerpt}
                 </p>
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
-                  className="p-0 h-auto text-primary hover:text-primary-dark font-medium group"
+                <a 
+                  href={post.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-primary hover:text-primary-dark font-medium group p-0"
                 >
                   Read More
                   <ArrowRight className="ml-1 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                </a>
               </CardContent>
             </Card>
           ))}
