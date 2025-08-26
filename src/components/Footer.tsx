@@ -91,7 +91,7 @@ export const Footer = () => {
                 <li key={index}>
                   <button
                     onClick={() => scrollToSection('#services')}
-                    className="text-blue-400 hover:text-primary-foreground transition-colors text-left"
+                    className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-left"
                   >
                     {service}
                   </button>

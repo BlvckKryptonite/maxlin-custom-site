@@ -64,7 +64,7 @@ export const CTASection = () => {
               onClick={() => scrollToSection('#services')}
               variant="outline" 
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6 h-auto"
+              className="border-white text-blue-400 hover:bg-white hover:text-primary text-lg px-8 py-6 h-auto"
             >
               View Our Services
               <ArrowRight className="ml-2 h-5 w-5" />

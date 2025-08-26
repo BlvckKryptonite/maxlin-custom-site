@@ -71,9 +71,9 @@ export const WhyMaxlinSection = () => {
                   className="w-full h-64 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
                 <img 
-                  src="/lovable-uploads/c6b67662-af15-413a-957f-9a824f427baa.png"
+                  src="/lovable-uploads/ae159f75-394f-4b27-99dd-63cef4db4bfa.png"
                   alt="Maxlin professional floor cleaning service"
-                  className="w-full h-72 object-cover rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  className="w-full h-72 object-cover object-center rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
                 />
               </div>
               <div className="space-y-4 pt-8">
