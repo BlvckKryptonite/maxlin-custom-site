@@ -18,7 +18,7 @@ export const NewsSection = () => {
       excerpt: "Learn how sustainable cleaning solutions protect both your family and the environment while delivering exceptional cleaning results that you can trust.",
       date: "2023-02-08",
       author: "Maxlin Team",
-      image: "/lovable-uploads/079ba0ff-9c7c-4fbd-ba0e-5decd36c29a7.png",
+      image: "/lovable-uploads/f18a3b51-7262-49a7-81aa-09fcf6d32215.png",
       category: "Sustainability",
       link: "https://maxlinenterprise.com/unlocking-the-power-of-eco-friendly-cleaning-products/"
     },
@@ -27,7 +27,7 @@ export const NewsSection = () => {
       excerpt: "Simple yet effective techniques for maintaining pristine kitchen hygiene. Discover why soap and water remains one of the most powerful cleaning combinations.",
       date: "2023-01-22",
       author: "Maxlin Team",
-      image: "/lovable-uploads/f18a3b51-7262-49a7-81aa-09fcf6d32215.png",
+      image: "/lovable-uploads/079ba0ff-9c7c-4fbd-ba0e-5decd36c29a7.png",
       category: "Kitchen Care",
       link: "https://maxlinenterprise.com/use-soap-and-water-to-clean-your-kitchen-shelves-too/"
     }
@@ -69,7 +69,7 @@ export const NewsSection = () => {
                 <img 
                   src={post.image} 
                   alt={post.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-56 object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="px-3 py-1 bg-primary text-primary-foreground text-xs font-medium rounded-full">

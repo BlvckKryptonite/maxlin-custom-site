@@ -5,25 +5,25 @@ const ProcessSection = () => {
     {
       number: "01",
       title: "Consultation and Needs Assessment",
-      description: "At this stage clients express interest, leading to a thorough consultation where we understand their specific requirements. Together, we define the project scope, ensuring clarity.",
+      description: "Client expresses interest leading to thorough consultation. We understand specific requirements and define project scope for clarity.",
       icon: MessageSquare,
     },
     {
       number: "02", 
       title: "Tailored Service Proposal",
-      description: "The Tailored Service Proposal stage involves crafting customized solutions, maintaining transparent communication, and offering flexibility.",
+      description: "Crafting customized solutions with transparent communication and flexible options tailored to your unique needs.",
       icon: FileText,
     },
     {
       number: "03",
       title: "Service Execution and Quality Assurance", 
-      description: "During Service Execution and Quality Assurance, our skilled team implements approved proposals with precision, conducts regular quality checks, and collaborates with clients for updates.",
+      description: "Our skilled team implements approved proposals with precision, conducts regular quality checks, and provides updates.",
       icon: Settings,
     },
     {
       number: "04",
       title: "Client Satisfaction and Follow-up",
-      description: "Finally, in Client Satisfaction and Follow-up, we gather feedback, address questions, improvement, and provide post-service support to address any follow-up needs or inquiries, ensuring a positive client experience throughout.",
+      description: "We gather feedback, address questions, and provide comprehensive post-service support for complete satisfaction.",
       icon: Users,
     },
   ];

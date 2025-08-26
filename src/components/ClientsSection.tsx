@@ -74,7 +74,7 @@ export const ClientsSection = () => {
             {duplicatedClients.map((client, index) => (
               <div 
                 key={`${client.name}-${index}`}
-                className="flex-shrink-0 w-44 h-24 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex items-center justify-center p-4 group cursor-pointer"
+                className="flex-shrink-0 w-52 h-28 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 flex items-center justify-center p-4 group cursor-pointer"
               >
                 <img 
                   src={client.logo} 
