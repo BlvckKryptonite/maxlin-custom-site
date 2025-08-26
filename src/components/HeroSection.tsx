@@ -14,7 +14,7 @@ export const HeroSection = () => {
     {
       title: "Experience Excellence in Every Service",
       subtitle: "From commercial cleaning to pest control - we deliver comprehensive solutions",
-      image: "/lovable-uploads/a160f49c-a723-4ad6-b678-f75060d48e96.png"
+      image: "/lovable-uploads/336c835b-dcab-49b7-8746-1b2c121c6eb8.png"
     }
   ];
 
