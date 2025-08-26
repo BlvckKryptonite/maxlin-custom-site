@@ -7,27 +7,27 @@ export const NewsSection = () => {
     {
       title: "The Importance of Regular Maintenance for a Healthy Home",
       excerpt: "Discover essential tips and professional insights on how regular home maintenance and cleaning routines create healthier living environments for your family.",
-      date: "2024-01-15",
+      date: "2023-03-15",
       author: "Maxlin Team",
-      image: "/lovable-uploads/home-maintenance-image.png",
+      image: "/lovable-uploads/c8a9f1fb-cbb1-403a-89a6-f7db50fb4227.png",
       category: "Home Care",
       link: "https://maxlinenterprise.com/the-importance-of-regular-maintenance-for-a-healthy-home/"
     },
     {
       title: "Unlocking the Power of Eco-Friendly Cleaning Products",
       excerpt: "Learn how sustainable cleaning solutions protect both your family and the environment while delivering exceptional cleaning results that you can trust.",
-      date: "2024-01-10",
+      date: "2023-02-08",
       author: "Maxlin Team",
-      image: "/lovable-uploads/eco-friendly-cleaning.png",
+      image: "/lovable-uploads/079ba0ff-9c7c-4fbd-ba0e-5decd36c29a7.png",
       category: "Sustainability",
       link: "https://maxlinenterprise.com/unlocking-the-power-of-eco-friendly-cleaning-products/"
     },
     {
       title: "Use Soap and Water to Clean Your Kitchen Shelves Too",
       excerpt: "Simple yet effective techniques for maintaining pristine kitchen hygiene. Discover why soap and water remains one of the most powerful cleaning combinations.",
-      date: "2024-01-05",
+      date: "2023-01-22",
       author: "Maxlin Team",
-      image: "/lovable-uploads/kitchen-cleaning.png",
+      image: "/lovable-uploads/f18a3b51-7262-49a7-81aa-09fcf6d32215.png",
       category: "Kitchen Care",
       link: "https://maxlinenterprise.com/use-soap-and-water-to-clean-your-kitchen-shelves-too/"
     }
