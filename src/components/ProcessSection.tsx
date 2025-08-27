@@ -42,7 +42,7 @@ const ProcessSection = () => {
                   <img 
                     src={step.image} 
                     alt={step.title}
-                    className="w-20 h-20 object-cover rounded-full"
+                    className="w-full h-full object-cover rounded-full"
                   />
                 </div>
                 <div className="absolute -top-2 -right-2 bg-primary text-primary-foreground text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
