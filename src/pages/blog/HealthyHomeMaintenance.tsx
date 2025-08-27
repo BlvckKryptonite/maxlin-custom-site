@@ -48,7 +48,7 @@ const HealthyHomeMaintenance = () => {
             />
           </div>
           
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none [&>p]:mb-6 [&>h2]:mt-10 [&>h2]:mb-6 [&>h3]:mt-8 [&>h3]:mb-4 [&>ul]:mb-6 [&>ol]:mb-6">
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Discover essential tips and professional insights on how regular home maintenance and cleaning routines create healthier living environments for your family.
             </p>

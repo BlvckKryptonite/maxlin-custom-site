@@ -48,7 +48,7 @@ const EcoFriendlyProducts = () => {
             />
           </div>
           
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none [&>p]:mb-6 [&>h2]:mt-10 [&>h2]:mb-6 [&>h3]:mt-8 [&>h3]:mb-4 [&>ul]:mb-6 [&>ol]:mb-6">
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Learn how sustainable cleaning solutions protect both your family and the environment while delivering exceptional cleaning results that you can trust.
             </p>

@@ -48,7 +48,7 @@ const KitchenCleaningTips = () => {
             />
           </div>
           
-          <div className="prose prose-lg max-w-none">
+          <div className="prose prose-lg max-w-none [&>p]:mb-6 [&>h2]:mt-10 [&>h2]:mb-6 [&>h3]:mt-8 [&>h3]:mb-4 [&>ul]:mb-6 [&>ol]:mb-6">
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Simple yet effective techniques for maintaining pristine kitchen hygiene. Discover why soap and water remains one of the most powerful cleaning combinations.
             </p>
