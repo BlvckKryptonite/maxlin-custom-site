@@ -11,7 +11,7 @@ export const NewsSection = () => {
       author: "Maxlin Team",
       image: "/lovable-uploads/c8a9f1fb-cbb1-403a-89a6-f7db50fb4227.png",
       category: "Home Care",
-      link: "https://maxlinenterprise.com/the-importance-of-regular-maintenance-for-a-healthy-home/"
+      link: "/blog/healthy-home-maintenance"
     },
     {
       title: "Unlocking the Power of Eco-Friendly Cleaning Products",
@@ -20,7 +20,7 @@ export const NewsSection = () => {
       author: "Maxlin Team",
       image: "/lovable-uploads/f18a3b51-7262-49a7-81aa-09fcf6d32215.png",
       category: "Sustainability",
-      link: "https://maxlinenterprise.com/unlocking-the-power-of-eco-friendly-cleaning-products/"
+      link: "/blog/eco-friendly-products"
     },
     {
       title: "Use Soap and Water to Clean Your Kitchen Shelves Too",
@@ -29,7 +29,7 @@ export const NewsSection = () => {
       author: "Maxlin Team",
       image: "/lovable-uploads/079ba0ff-9c7c-4fbd-ba0e-5decd36c29a7.png",
       category: "Kitchen Care",
-      link: "https://maxlinenterprise.com/use-soap-and-water-to-clean-your-kitchen-shelves-too/"
+      link: "/blog/kitchen-cleaning-tips"
     }
   ];
 
@@ -96,8 +96,6 @@ export const NewsSection = () => {
                 </p>
                 <a 
                   href={post.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="inline-flex items-center text-primary hover:text-primary-dark font-medium group p-0"
                 >
                   Read More
