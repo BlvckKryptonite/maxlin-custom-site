@@ -1,30 +1,28 @@
-import { MessageSquare, FileText, Settings, Users } from 'lucide-react';
-
 const ProcessSection = () => {
   const steps = [
     {
       number: "01",
       title: "Consultation and Needs Assessment",
       description: "Client expresses interest leading to thorough consultation. We understand specific requirements and define project scope for clarity.",
-      icon: MessageSquare,
+      image: "/lovable-uploads/b0d71794-f433-4d37-b535-666ffaef96b7.png",
     },
     {
       number: "02", 
       title: "Tailored Service Proposal",
       description: "Crafting customized solutions with transparent communication and flexible options tailored to your unique needs.",
-      icon: FileText,
+      image: "/lovable-uploads/6de9d3f9-4e15-41df-93f7-fbf01444f5fe.png",
     },
     {
       number: "03",
       title: "Service Execution and Quality Assurance", 
       description: "Our skilled team implements approved proposals with precision, conducts regular quality checks, and provides updates.",
-      icon: Settings,
+      image: "/lovable-uploads/629e17f3-2cb7-4a7c-8e73-7ffffae7ba91.png",
     },
     {
       number: "04",
       title: "Client Satisfaction and Follow-up",
       description: "We gather feedback, address questions, and provide comprehensive post-service support for complete satisfaction.",
-      icon: Users,
+      image: "/lovable-uploads/377a18c8-9ca1-4a06-9e00-d1f24d26b5c0.png",
     },
   ];
 
@@ -40,8 +38,12 @@ const ProcessSection = () => {
           {steps.map((step, index) => (
             <div key={index} className="text-center group">
               <div className="relative mb-6">
-                <div className="w-32 h-32 mx-auto bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300">
-                  <step.icon className="w-12 h-12 text-primary" />
+                <div className="w-32 h-32 mx-auto bg-primary/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors duration-300 overflow-hidden">
+                  <img 
+                    src={step.image} 
+                    alt={step.title}
+                    className="w-20 h-20 object-cover rounded-full"
+                  />
                 </div>
                 <div className="absolute -top-2 -right-2 bg-primary text-primary-foreground text-sm font-bold w-8 h-8 rounded-full flex items-center justify-center">
                   {step.number}
