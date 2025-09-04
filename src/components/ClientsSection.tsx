@@ -29,7 +29,7 @@ export const ClientsSection = () => {
 
     const scroll = () => {
       if (!isPaused) {
-        scrollLeft += 0.3;
+        scrollLeft += 0.5;
         if (scrollLeft >= scrollWidth / 2) {
           scrollLeft = 0;
         }
