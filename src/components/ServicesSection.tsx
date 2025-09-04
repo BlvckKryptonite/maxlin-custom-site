@@ -98,11 +98,6 @@ export const ServicesSection = () => {
               <p className="text-muted-foreground leading-relaxed">
                 {service.description}
               </p>
-              <div className="mt-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <Button variant="outline" size="sm" className="w-full">
-                  Learn More
-                </Button>
-              </div>
             </div>
           ))}
         </div>
