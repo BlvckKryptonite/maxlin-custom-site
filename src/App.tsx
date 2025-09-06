@@ -4,20 +4,14 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// GitHub Pages SPA routing helper
+// GitHub Pages routing setup
 const isGitHubPages = window.location.hostname.includes('github.io');
-// Extract repo name from GitHub Pages URL: https://username.github.io/repo-name/
-const getBasename = () => {
-  if (!isGitHubPages) return '';
-  const pathParts = window.location.pathname.split('/').filter(Boolean);
-  return pathParts.length > 0 ? `/${pathParts[0]}` : '';
-};
-const basename = getBasename();
+const basename = isGitHubPages ? `/${window.location.pathname.split('/')[1] || ''}` : '';
 
-// Handle GitHub Pages routing
+// Handle GitHub Pages SPA routing
 if (isGitHubPages && window.location.search.startsWith('?/')) {
-  const path = window.location.search.slice(2) + window.location.hash;
-  window.history.replaceState(null, '', path);
+  const path = window.location.search.slice(2).replace(/&/g, '?').replace(/~and~/g, '&') + window.location.hash;
+  window.history.replaceState(null, '', basename + path);
 }
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
