@@ -6,7 +6,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // GitHub Pages SPA routing helper
 const isGitHubPages = window.location.hostname.includes('github.io');
-const basename = isGitHubPages ? process.env.PUBLIC_URL || '' : '';
+// Extract repo name from GitHub Pages URL: https://username.github.io/repo-name/
+const getBasename = () => {
+  if (!isGitHubPages) return '';
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  return pathParts.length > 0 ? `/${pathParts[0]}` : '';
+};
+const basename = getBasename();
 
 // Handle GitHub Pages routing
 if (isGitHubPages && window.location.search.startsWith('?/')) {
